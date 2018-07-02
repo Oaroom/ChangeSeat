@@ -10,12 +10,5 @@
 <body>
 
 
-<div id="mainF">
-
-자리바꾸기 프로그램 <br>
-
-<input type="submit" id="startB" value="시작하기"  onclick="location.href='InputData.jsp'" >
-
-</div>
 </body>
 </html>

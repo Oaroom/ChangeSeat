@@ -15,9 +15,14 @@
 String contentPage = request.getParameter("CONTENTPAGE");
 %>
 
-<div id="mainF">
-	<jsp:include page="<%= contentPage %>"></jsp:include>
-</div>
 
+<div id="title">
+<h2>
+
+CHANGE SEAT
+</h2>
+<input type="submit" id="startB" value="시작하기"  onclick="location.href='InputData.jsp'" >
+
+</div>
 </body>
 </html>
