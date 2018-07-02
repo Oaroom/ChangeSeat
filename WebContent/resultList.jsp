@@ -5,24 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-
-<link rel= "stylesheet" type="text/css" href="change.css?ver=3">
-
-
 </head>
-<body style="background-color:#6a60a9;">
-<%
-String contentPage = request.getParameter("CONTENTPAGE");
-%>
+<body>
+
+<jsp:forward page="frame.jsp">
+	<jsp:param value="listProc.jsp" name="CONTENTPAGE"/>
+</jsp:forward>
 
 
-<div id="title">
-<h2>
-
-CHANGE SEAT
-</h2>
-<input type="submit" id="startB" value="시작하기"  onclick="location.href='InputData.jsp'" >
-
-</div>
 </body>
 </html>

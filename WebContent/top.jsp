@@ -5,24 +5,40 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-
-<link rel= "stylesheet" type="text/css" href="change.css?ver=3">
-
-
 </head>
-<body style="background-color:#6a60a9;">
-<%
-String contentPage = request.getParameter("CONTENTPAGE");
-%>
+<body>
 
 
-<div id="title">
-<h2>
+<table id="top">
 
-CHANGE SEAT
-</h2>
-<input type="submit" id="startB" value="시작하기"  onclick="location.href='InputData.jsp'" >
+<tr>
 
-</div>
+	<td>
+		<a href="index.jsp">
+			HOME
+		</a>
+	</td>
+	
+	<td>
+	<a href="InputData.jsp">
+			INPUT
+		</a>
+	</td>
+	
+	<td>
+	<a href="resultList.jsp">
+			RESULT
+		</a>
+	</td>
+	
+	<th>
+	
+	</th>
+
+</tr>
+
+</table>
+
+
 </body>
 </html>
